@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_live"
+        android:icon="@mipmap/videos"
+        android:orderInCategory="99"
+        android:title="Live Video"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/nav_events"
+        android:icon="@mipmap/announce"
+        android:orderInCategory="100"
+        android:title="Announcements"
+        app:showAsAction="always" />
+</menu>

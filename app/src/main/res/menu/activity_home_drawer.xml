@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_news"
+            android:icon="?android:attr/actionModePasteDrawable"
+            android:title="News &amp; Updates" />
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/events"
+            android:title="Events &amp; Activities" />
+        <item
+            android:id="@+id/nav_destinations"
+            android:icon="@drawable/destination"
+            android:title="Destinations" />
+        <item
+            android:id="@+id/nav_culturals"
+            android:icon="@drawable/culturalheritage"
+            android:title="Cultural Heritage" />
+        <item
+            android:id="@+id/nav_hotels"
+            android:icon="@drawable/sleep_hotel"
+            android:title="Hotels &amp; Inns" />
+        <item
+            android:id="@+id/nav_resto"
+            android:icon="@drawable/restaurant_food"
+            android:title="Restaurants &amp; Diners " />
+        <item
+            android:id="@+id/nav_products"
+            android:icon="@drawable/products"
+            android:title="Products &amp; Delicacies" />
+        <item
+            android:id="@+id/nav_malls"
+            android:icon="@drawable/shop"
+            android:title="Malls &amp; Groceries" />
+        <item
+            android:id="@+id/nav_banks"
+            android:icon="@drawable/bank"
+            android:title="Banks" />
+        <item
+            android:id="@+id/nav_church"
+            android:icon="@drawable/church"
+            android:title="Churches" />
+        <item
+            android:id="@+id/nav_spas"
+            android:icon="@drawable/spa"
+            android:title="Spa &amp; Wellness" />
+        <item
+            android:id="@+id/nav_clinics"
+            android:icon="@drawable/hospital"
+            android:title="Hospitals &amp; Clinics" />
+        <item
+            android:id="@+id/nav_ucontacts"
+            android:icon="@drawable/directory"
+            android:title="Useful Contacts" />
+        <item
+            android:id="@+id/nav_peso"
+            android:icon="@drawable/ic_peso"
+            android:title="Job Posting" />
+
+        <item android:title="Others">
+            <menu>
+                <item
+                    android:id="@+id/nav_history"
+                    android:icon="@drawable/scroll"
+                    android:title="History of Ormoc" />
+                <item
+                    android:id="@+id/nav_transpo"
+                    android:icon="@drawable/taxi"
+                    android:title="Travel Information" />
+                <item
+                    android:id="@+id/nav_about"
+                    android:icon="@drawable/about"
+                    android:title="About" />
+                <item
+                    android:id="@+id/nav_contact"
+                    android:icon="@drawable/contactus"
+                    android:title="Contact Us" />
+            </menu>
+        </item>
+
+    </group>
+
+
+
+</menu>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Ormoc City</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="txtOrmoc"><a href="http://ormoc.gov.ph/">ormoc.gov.ph</a></string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8224488979884241/7339802031</string>
+    <!--for testing ads below-->
+    <!--<string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>-->
+    <string name="fcm_token">FCM Token: %s</string>
+</resources>

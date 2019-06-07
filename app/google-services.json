@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "13515313736",
+    "firebase_url": "https://my-ormoc-city-c18ab.firebaseio.com",
+    "project_id": "my-ormoc-city-c18ab",
+    "storage_bucket": "my-ormoc-city-c18ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:13515313736:android:2915670134e58db7",
+        "android_client_info": {
+          "package_name": "com.goma.admin.ormoccity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "13515313736-aotjv3j5v1ghq4h7ahv1sg71ul7ojr92.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAx2EIbzx3bmpE16Fmmk2QhNfD-z7CW_bU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "13515313736-aotjv3j5v1ghq4h7ahv1sg71ul7ojr92.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

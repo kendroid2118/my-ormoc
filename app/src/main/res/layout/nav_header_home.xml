@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@drawable/newcoverdrawer"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+
+    android:paddingRight="@dimen/activity_horizontal_margin"
+
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="120sp"
+        android:layout_height="120sp"
+        android:layout_gravity="center_vertical"
+        android:contentDescription="@string/nav_header_desc"
+        android:paddingTop="30dp"
+        android:paddingRight="20dp"
+        app:srcCompat="@drawable/logohd" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:fontFamily="serif"
+        android:paddingTop="10dp"
+        android:text="Ormoc City, Leyte"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#454545"
+        android:textSize="14dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:fontFamily="serif"
+        android:paddingBottom="20dp"
+        android:text="@string/txtOrmoc"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#454545"
+        android:textColorLink="#454545"
+        android:textSize="14dp"
+        android:textStyle="italic" />
+
+
+
+</LinearLayout>
